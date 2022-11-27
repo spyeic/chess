@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "Piece";
+    src: url("../font/WeiTi.ttf") format("truetype");
+}
+
+.piece {
+    position: absolute;
+    border: black solid 1px;
+    border-radius: 100%;
+    background-color: #eeb739;
+}
+
+.piece:active {
+    background-color: #b18d32;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+    transform: rotate(180deg);
+}
+
+.piece-name {
+    font-family: "Piece", serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dangerous {
+    background-color: #600e0e;
+}
+
+.selected {
+    background-color: #b18d32;
+}
